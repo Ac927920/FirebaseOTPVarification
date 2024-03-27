@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPManage"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/text_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP Process"
+        android:textSize="30sp"/>
+
+
+
+    <EditText
+        android:id="@+id/OTP_v"
+        android:layout_width="271dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:layout_below="@id/text_v"
+        android:inputType="textPersonName"
+        android:hint="Enter OTP here"
+        android:maxLength="6"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/submit_btn_v"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:text="Verify and Signin"
+        android:layout_below="@id/OTP_v"
+        android:textSize="20sp"
+         />
+
+
+</RelativeLayout>

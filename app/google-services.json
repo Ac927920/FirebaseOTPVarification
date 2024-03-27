@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "88288812461",
+    "project_id": "otpvarification-9808c",
+    "storage_bucket": "otpvarification-9808c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88288812461:android:a62346121eb2d67e591524",
+        "android_client_info": {
+          "package_name": "com.example.otpvarification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOghpqZAkRljhXdOA77qkRX05podhg9AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
